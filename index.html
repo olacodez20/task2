@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side Hustle Sign Up Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital@1&family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="container">
+        <div class="form-wrap">
+        <h1>SIGN UP</h1>
+        <p>welcome, as it's simple and takes only half of your minute.</p>
+            <form>
+                <div class="form-group">
+                    <label for="first-name">FIRST NAME</label>
+                    <input required type="text" name="firstName" id="first-name"/>
+                </div>
+    
+                <div class="form-group">
+                    <label for="last-name">LAST NAME</label>
+                    <input required type="text" name="lastName" id="last-name"/>
+                </div>
+    
+                <div class="form-group">
+                    <label for="date of birth">DATE OF BIRTH</label>
+                    <!-- <input required type="datetime-local" name="date of birth" id="date of birth"> -->
+                    <input required type="date" name="date of birth" id="date of birth">
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">EMAIL</label>
+                    <input required type="email" name="EMAIL" id="e-mail"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone-no">PHONE</label>
+                    <input required type="tel" name="firstName" id="phone-no"/>
+                </div>
+                
+                <div class="form-group">
+                    <label for="gender">GENDER</label>
+                </div>    
+                <div>
+                    <label for="gender">Male</label>
+                    <input type="radio" name="gender" id="male">
+
+                    <label class="male" for="gender">Female</label>
+                    <input type="radio" name="gender" id="female">
+                </div>
+
+                <div class="form-group">        
+                    <label for="password">PASSWORD</label>
+                    <input required type="password" name="password" id="password"> 
+                </div>
+    
+                <div class="form-group">        
+                    <label for="password2">CONFIRM PASSWORD</label>
+                    <input required type="password" name="password2" id="password2"> 
+                </div>
+    
+                <button onclick="alert ('Success')" type="submit" class="btn">SIGN UP</button>
+                <p class="button-text">By clicking the sign up button,you agree to our <a href="#"> Terms and Conditions</a> and <a href="#">Privacy Policy</a></p>
+    
+            </form>
+        </div>
+    
+        <footer>
+            <p>Already have an account?<a href="#">Login  Here</a></p>
+        </footer>
+     </div>
+
+     <!-- <script type="text/javascript">
+        alert("Success!");
+     </script> -->
+
+</body>
+</html>
